@@ -7,7 +7,7 @@ function Prime(m) {
   
         if (m % i !== 0) {
           return true;
-        } else if (n === i * i) {
+        } else if (m === i * i) {
           return false
         } else {
           return false;
